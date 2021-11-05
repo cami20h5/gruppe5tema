@@ -1,0 +1,25 @@
+/* CSS Document 
+
+Theme Name: Gruppe 5 tema
+
+Template: twentynineteen
+
+Author: Camilla, Mathilde, Rosa, Oliver, Katrine
+
+Version: 1.0.1
+
+Description: Stylish Child Theme based on Twenty Nineteen
+
+*/
+
+
+
+.entry .entry-title:before {
+
+
+    display: none;
+
+  
+  }
+
+  
