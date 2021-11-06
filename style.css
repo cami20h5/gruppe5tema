@@ -1,27 +1,14 @@
-/* CSS Document 
-
-Theme Name: Gruppe 5 tema
-
+/* 
+Theme Name: Child Theme 1
 Template: twentynineteen
-
-Author: Camilla, Mathilde, Rosa, Oliver, Katrine
-
-Version: 1.0.1
-
+Author: Rosa Sahlholt
 Description: Stylish Child Theme based on Twenty Nineteen
-
 */
 
-
-
-.entry .entry-title:before {
-
-
-    display: none;
-
-  
-  }
-
-
-
-  
+h1,
+h2,
+h3,
+h4,
+p {
+  font-family: "Courier New", Courier, monospace;
+}
