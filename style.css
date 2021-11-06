@@ -20,5 +20,15 @@ a {
 }
 
 .main-navigation a {
-  color: rgba(1, 1, 1, 1) !important;
+  color: rgba(1, 1, 1, 1) !important; 
 }
+
+.main-navigation li a{
+  background-color: rgb(255,255,255)
+}
+
+a {font-family: courier; font-weight: 100}
+
+ul a:hover {background-color: rgba(239, 217, 205, 0.8)}
+
+a {padding: 10px}
