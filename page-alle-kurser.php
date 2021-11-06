@@ -15,10 +15,7 @@ get_header();
 		<main id="main" class="site-main">
 
 		</main><!-- #main -->
-
-	</div><!-- #section -->
-
-<script>
+		<script>
  let kurser;
       
         //url til restdb 
@@ -39,6 +36,9 @@ get_header();
 
 
 </script>
+	</div><!-- #section -->
+
+
 
 <?php
 
