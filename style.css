@@ -18,4 +18,6 @@ p {
   color: black;
 }
 
-nav li {color: black;}
+nav a {
+  color: black;
+}
