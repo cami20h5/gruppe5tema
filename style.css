@@ -13,9 +13,9 @@ h1,
 h2,
 h3,
 h4,
-p,
-li,
-a {
+p {
   font-family: "Courier New", Courier, monospace;
   color: black;
 }
+
+nav li {color: black;}
