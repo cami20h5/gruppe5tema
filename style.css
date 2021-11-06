@@ -5,24 +5,17 @@ Author: Rosa Sahlholt
 Description: Stylish Child Theme based on Twenty Nineteen
 */
 
-
-
 .entry .entry-title:before {
+  display: none;
+}
 
-
-    display: none;
-
-  
-  }
-
-
-
-  
 h1,
 h2,
 h3,
 h4,
-p
-li {
-  font-family: "Courier New", Courier, monospace; color: black;
+p,
+li,
+a {
+  font-family: "Courier New", Courier, monospace;
+  color: black;
 }
