@@ -32,3 +32,7 @@ a {font-family: courier; font-weight: 100}
 ul a:hover {background-color: rgba(239, 217, 205, 0.8)}
 
 a {padding: 10px}
+
+label {font-family: courier}
+
+#wpforms-submit-172 {color: white; background-color: black; border-radius: 20px; font-family: courier}
