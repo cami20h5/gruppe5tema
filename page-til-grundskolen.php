@@ -8,7 +8,7 @@ get_header();
 
 ?>
 
-<template>
+<template> 
         <article class="kurset">
             <img src="" alt="">
             <div>
@@ -24,6 +24,9 @@ get_header();
 	<section id="section" class="content-area">
 
 		<main id="main" class="site-main">
+
+<section id="oversigt"></section>
+
 		</main><!-- #main -->
 		
 
