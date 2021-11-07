@@ -9,7 +9,7 @@ get_header();
 ?>
 
 <template>
-        <article>
+        <article class="kurset">
             <img src="" alt="">
             <div>
          
@@ -39,6 +39,11 @@ get_header();
 	  //url til wp restapi db - læg mærke til den her kunindhenter data med kategori 3 (numreringen på til grundskole kategorien)
 	  const url = "https://xn--mflingo-q1a.dk/kea/ungdomsbyen/wp-json/wp/v2/kursus?categories=3&per_page=100";
 	 
+     //const for destination af indhold og template
+    const destination = document.querySelector("#oversigt");
+    let template = document.querySelector("template"); 
+
+
 
 	  // asynkron function som afventer og indhenter json data fra restdb
 	  async function hentData() {
@@ -50,16 +55,15 @@ get_header();
 
 
 	  function visKurser() {
-            let temp = document.querySelector("template");
-            let container = document.querySelector(".retcontainer")
+           
             kurser.forEach(kursus => {
                 let klon = temp.cloneNode(true).content;
-                klon.querySelector("h2").textContent = ret.navn;
-                klon.querySelector("img").src = billedUrl+ ret.billede;
-                klon.querySelector(".kategori").textContent = ret.kategori;
-                klon.querySelector(".tekst").textContent = ret.kortbeskrivelse;
-                klon.querySelector(".pris").textContent = ret.pris;
-                klon.querySelector("article").addEventListener("click", ()=> {location.href = "restdb-single.html?id="+ret._id; })
+                klon.querySelector(".navn").textContent = kursus.navn;
+                klon.querySelector("img").src = kursus.billede.guid;
+                klon.querySelector(".kortbeskrivelse").textContent = kursus.kort_beskrivelse;
+                klon.querySelector(".pris").textContent = kursus.pris;
+                
+                klon.querySelector(".kurset").addEventListener("click", ()=> {location.href = "restdb-single.html?id="+ret._id; })
                 container.appendChild(klon);
             })
         }
