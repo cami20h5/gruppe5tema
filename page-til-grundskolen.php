@@ -17,8 +17,8 @@ get_header();
 		
 <script>let kurser;
       
-	  //url til restdb 
-	  const url = "https://xn--mflingo-q1a.dk/kea/ungdomsbyen/wp-json/wp/v2/kursus?per_page=100";
+	  //url til wp restapi db - læg mærke til den her kunindhenter data med kategori 3 (numreringen på til grundskole kategorien)
+	  const url = "https://xn--mflingo-q1a.dk/kea/ungdomsbyen/wp-json/wp/v2/kursus?categories=3&per_page=100";
 	 
 
 	  // asynkron function som afventer og indhenter json data fra restdb
