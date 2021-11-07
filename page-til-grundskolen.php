@@ -60,11 +60,13 @@ get_header();
 	  function visKurser() {
            
             kurser.forEach(kursus => {
-                let klon = temp.cloneNode(true).content;
+                let klon = template.cloneNode(true).content;
                 klon.querySelector(".navn").textContent = kursus.navn;
                 klon.querySelector("img").src = kursus.billede.guid;
                 klon.querySelector(".kortbeskrivelse").textContent = kursus.kort_beskrivelse;
                 klon.querySelector(".pris").textContent = kursus.pris;
+
+                destination.appendChild(klon);
         
               
             });
@@ -73,10 +75,6 @@ get_header();
 
 
 
-
-	  function visKurser(){
-		  console.log(kurser);
-	  }
 
 	  hentData();
 
