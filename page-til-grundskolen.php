@@ -12,7 +12,7 @@ get_header();
         <article>
             <img src="" alt="">
             <div>
-            <h2></h2>
+         
             <p class="navn"></p>
             <p class="kortbeskrivelse"></p>
             <p class="pris"></p>
