@@ -65,6 +65,9 @@ get_header();
                 klon.querySelector("img").src = kursus.billede.guid;
                 klon.querySelector(".kortbeskrivelse").textContent = kursus.kort_beskrivelse;
                 klon.querySelector(".pris").textContent = kursus.pris;
+                klon.querySelector("article").addEventListener("click", () => {
+                    location.href = kursus.link;
+                })
 
                 destination.appendChild(klon);
         
