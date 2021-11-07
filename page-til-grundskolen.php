@@ -39,7 +39,7 @@ get_header();
 
 
       
-	  //url til wp restapi db - læg mærke til den her kunindhenter data med kategori 3 (numreringen på til grundskole kategorien)
+	  //url til wp restapi db - læg mærke til den her kun indhenter data med kategori 3 (numreringen på til grundskole kategorien)
 	  const url = "https://xn--mflingo-q1a.dk/kea/ungdomsbyen/wp-json/wp/v2/kursus?categories=3&per_page=100";
 	 
      //const for destination af indhold og template
@@ -65,14 +65,10 @@ get_header();
                 klon.querySelector("img").src = kursus.billede.guid;
                 klon.querySelector(".kortbeskrivelse").textContent = kursus.kort_beskrivelse;
                 klon.querySelector(".pris").textContent = kursus.pris;
-                
-                klon.querySelector(".kurset").addEventListener("click", ()=> {location.href = "restdb-single.html?id="+ret._id; })
-                container.appendChild(klon);
-            })
+        
+              
+            });
         }
-
-
-
 
 
 
