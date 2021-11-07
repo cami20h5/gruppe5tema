@@ -52,7 +52,7 @@ get_header();
 	  function visKurser() {
             let temp = document.querySelector("template");
             let container = document.querySelector(".retcontainer")
-            retter.forEach(ret => {
+            kurser.forEach(kursus => {
                 let klon = temp.cloneNode(true).content;
                 klon.querySelector("h2").textContent = ret.navn;
                 klon.querySelector("img").src = billedUrl+ ret.billede;
