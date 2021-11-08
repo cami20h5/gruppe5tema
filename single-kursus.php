@@ -48,7 +48,7 @@ get_header();
                 document.querySelector("img").src = kursus.billede.guid;
                 document.querySelector(".kortbeskrivelse").textContent = kursus.kort_beskrivelse;
                 document.querySelector(".langbeskrivelse").textContent = kursus.lang_beskrivelse;
-                document.querySelector(".pris").textContent += kursus.pris;
+                document.querySelector(".pris").textContent = kursus.pris;
             }
 
 			// document.querySelector(".luk").addEventListener("click", () => {
