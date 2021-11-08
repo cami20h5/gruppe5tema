@@ -38,14 +38,12 @@ get_header();
 			const data = await fetch(dbUrl);
 			kursus = await data.json();
 			visKurser();
-
-		
 		
 		}
 
       //Vis data om kurset 
 
-        function visKursus() {
+        function visKurser() {
                 document.querySelector("h2").textContent = kursus.navn;
                 document.querySelector("img").src = kursus.billede.guid;
                 document.querySelector(".kortbeskrivelse").textContent = kursus.kort_beskrivelse;
@@ -56,10 +54,7 @@ get_header();
 			document.querySelector(".luk").addEventListener("click", () => {
 				//Link tilbage til den foregående "luk" knappen
 				history.back();
-			}
-			
-			
-			)
+			})
     
 
         getJson();
