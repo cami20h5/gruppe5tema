@@ -19,6 +19,10 @@ get_header();
     
 }
 
+
+
+
+
 .navn {
     padding-left: 20px;
 
@@ -31,6 +35,31 @@ img {
 
 }
 
+
+.pris {
+    padding-left: 20px;  
+}
+
+.laengde {
+    padding-left: 20px;  
+}
+
+
+.antal_deltagere {
+    padding-left: 20px; 
+}
+
+.underoverskrift1 {
+    padding-left: 20px;
+
+}
+.yderligereinfo_1 {
+    padding-left: 20px;
+}
+
+.underoverskrift2 {
+    padding-left: 20px;
+}
 
     </style>
 
