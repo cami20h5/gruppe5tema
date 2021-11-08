@@ -8,13 +8,21 @@ get_header();
 <main id="main" class="site-main"> 
 
  <article class="kurset">
-            <img src="" alt="">
+            
             <div>
-			<p class="billede"></p>
+			
             <h2 class="navn"></h2>
             <p class="kortbeskrivelse"></p>
             <p class="langbeskrivelse"></p>
+            <img class="billede" src="" alt="">
 			<p class="pris"></p>
+            <p class="laengde"></p>
+            <p class="antal_deltagere"></p>
+            <p class="klassetrin"></p>
+            <h3 class="underoverskrift1"></h3>
+            <p class="yderligereinfo_1"></p>
+            <h4 class="underoverskrift2"></h4>
+            <p class="yderligereinfo_2"></p>
             </div>
         </article>
 
@@ -49,6 +57,13 @@ get_header();
                 document.querySelector(".kortbeskrivelse").textContent = kursus.kort_beskrivelse;
                 document.querySelector(".langbeskrivelse").textContent = kursus.lang_beskrivelse;
                 document.querySelector(".pris").textContent = kursus.pris;
+                document.querySelector(".laengde").textContent = kursus.laengde;
+                document.querySelector(".antal_deltagere").textContent = kursus.antal_deltagere;
+                document.querySelector(".klassetrin").textContent = kursus.klassetrin;
+                document.querySelector(".h3").textContent = kursus.underoverskrift1;
+                document.querySelector(".yderligereinfo_1").textContent = kursus.yderligere_information1;
+                document.querySelector(".h4").textContent = kursus.underoverskrift2;
+                document.querySelector(".yderligereinfo_2").textContent = kursus.yderligere_information2;
             }
 
 			// document.querySelector(".luk").addEventListener("click", () => {
