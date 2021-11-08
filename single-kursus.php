@@ -51,9 +51,9 @@ get_header();
                 document.querySelector(".pris").textContent += kursus.pris+".- kr";
             }
 
-			document.querySelector(".luk").addEventListener("click", () => {
-				//Link tilbage til den foregående "luk" knappen
-				history.back();
+			// document.querySelector(".luk").addEventListener("click", () => {
+				
+			// 	history.back();
 			})
     
 
