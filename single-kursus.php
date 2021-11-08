@@ -14,7 +14,7 @@ get_header();
             <h2 class="navn"></h2>
             <p class="kortbeskrivelse"></p>
             <p class="langbeskrivelse"></p>
-			
+			<p class="pris"></p>
             </div>
         </article>
 
@@ -45,7 +45,7 @@ get_header();
 
         function visKurser() {
                 document.querySelector("h2").textContent = kursus.navn;
-                document.querySelector("img").src = kursus.billede.guid;
+                document.querySelector(".billede").src = kursus.billede.guid;
                 document.querySelector(".kortbeskrivelse").textContent = kursus.kort_beskrivelse;
                 document.querySelector(".langbeskrivelse").textContent = kursus.lang_beskrivelse;
                 document.querySelector(".pris").textContent = kursus.pris;
