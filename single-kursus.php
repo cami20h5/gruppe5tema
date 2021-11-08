@@ -86,15 +86,15 @@ img {
 
         function visKurser() {
                 document.querySelector("h2").textContent = kursus.navn;
-                document.querySelector(".billede").src = kursus.billede.guid;
+                document.querySelector(".kortbeskrivelse").textContent = kursus.kort_beskrivelse;
+                document.querySelector(".langbeskrivelse").textContent = kursus.lang_beskrivelse;
                 document.querySelector(".pris").textContent = kursus.pris;
                 document.querySelector(".laengde").textContent = kursus.laengde;
                 document.querySelector(".antal_deltagere").textContent = kursus.antal_deltagere;
                 document.querySelector(".klassetrin").textContent = kursus.klassetrin;
 
-                document.querySelector(".kortbeskrivelse").textContent = kursus.kort_beskrivelse;
-                document.querySelector(".langbeskrivelse").textContent = kursus.lang_beskrivelse;
-            
+                
+                document.querySelector(".billede").src = kursus.billede.guid;
 
                 document.querySelector("h3").textContent = kursus.underoverskrift1;
                 document.querySelector(".yderligereinfo_1").textContent = kursus.yderligere_information1;
