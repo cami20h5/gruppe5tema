@@ -4,6 +4,39 @@
 get_header();
 ?>
 
+<style>
+    
+.kortbeskrivelse {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    padding-left: 20px;
+    
+}
+.langbeskrivelse {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    padding-left: 20px;
+    
+}
+
+.navn {
+    padding-left: 20px;
+
+}
+
+img {
+    width: 100%;
+    height: 100%; 
+    padding-left: 20px;
+
+}
+
+
+    </style>
+
+
+
+
 <section id="primary" class="content-area">
 <main id="main" class="site-main"> 
 
@@ -54,12 +87,14 @@ get_header();
         function visKurser() {
                 document.querySelector("h2").textContent = kursus.navn;
                 document.querySelector(".billede").src = kursus.billede.guid;
-                document.querySelector(".kortbeskrivelse").textContent = kursus.kort_beskrivelse;
-                document.querySelector(".langbeskrivelse").textContent = kursus.lang_beskrivelse;
                 document.querySelector(".pris").textContent = kursus.pris;
                 document.querySelector(".laengde").textContent = kursus.laengde;
                 document.querySelector(".antal_deltagere").textContent = kursus.antal_deltagere;
                 document.querySelector(".klassetrin").textContent = kursus.klassetrin;
+
+                document.querySelector(".kortbeskrivelse").textContent = kursus.kort_beskrivelse;
+                document.querySelector(".langbeskrivelse").textContent = kursus.lang_beskrivelse;
+            
 
                 document.querySelector("h3").textContent = kursus.underoverskrift1;
                 document.querySelector(".yderligereinfo_1").textContent = kursus.yderligere_information1;
