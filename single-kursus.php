@@ -60,9 +60,10 @@ get_header();
                 document.querySelector(".laengde").textContent = kursus.laengde;
                 document.querySelector(".antal_deltagere").textContent = kursus.antal_deltagere;
                 document.querySelector(".klassetrin").textContent = kursus.klassetrin;
-                document.querySelector(".h3").textContent = kursus.underoverskrift1;
+
+                document.querySelector("h3").textContent = kursus.underoverskrift1;
                 document.querySelector(".yderligereinfo_1").textContent = kursus.yderligere_information1;
-                document.querySelector(".h4").textContent = kursus.underoverskrift2;
+                document.querySelector("h4").textContent = kursus.underoverskrift2;
                 document.querySelector(".yderligereinfo_2").textContent = kursus.yderligere_information2;
             }
 
