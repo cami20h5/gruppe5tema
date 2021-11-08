@@ -47,11 +47,12 @@ img {
             <h2 class="navn"></h2>
             <p class="kortbeskrivelse"></p>
             <p class="langbeskrivelse"></p>
-            <img class="billede" src="" alt="">
+ 
 			<p class="pris"></p>
             <p class="laengde"></p>
             <p class="antal_deltagere"></p>
             <p class="klassetrin"></p>
+            <img class="billede" src="" alt="">
             <h3 class="underoverskrift1"></h3>
             <p class="yderligereinfo_1"></p>
             <h4 class="underoverskrift2"></h4>
