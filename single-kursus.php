@@ -90,18 +90,20 @@ img {
             
             <div>
 			
-            <div class="infoboks"> 
+            <div class="infoboks1"> 
                   <h2 class="navn"></h2>
             <p class="kortbeskrivelse"></p>
             <p class="langbeskrivelse"></p>
  
-			
+			</div>
+
+            <div class="infoboks2">
             <p class="pris"></p>
             <p class="laengde"></p>
             <p class="antal_deltagere"></p>
             <p class="klassetrin"></p> 
+            </div>
         
-        </div>
             <img class="billede" src="" alt="">
             <h3 class="underoverskrift1"></h3>
             <p class="yderligereinfo_1"></p>
