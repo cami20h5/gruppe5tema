@@ -6,7 +6,7 @@ get_header();
 
 <style>
     
-.kortbeskrivelse {
+/* .kortbeskrivelse {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
     padding-left: 20px;
@@ -17,9 +17,12 @@ get_header();
     grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
     padding-left: 20px;
     
+} */
+
+.infoboks {
+    display: grid; 
+    grid-template-columns: 1fr, 1fr;
 }
-
-
 
 
 
@@ -61,6 +64,20 @@ img {
     padding-left: 20px;
 }
 
+.yderligereinfo_2 {
+    padding-left: 20px;
+}
+
+.klassetrin {
+    padding-left: 20px;
+}
+
+.infoboks {
+
+}
+
+
+
     </style>
 
 
@@ -73,14 +90,18 @@ img {
             
             <div>
 			
-            <h2 class="navn"></h2>
+            <div class="infoboks"> 
+                  <h2 class="navn"></h2>
             <p class="kortbeskrivelse"></p>
             <p class="langbeskrivelse"></p>
  
-			<p class="pris"></p>
+			
+            <p class="pris"></p>
             <p class="laengde"></p>
             <p class="antal_deltagere"></p>
-            <p class="klassetrin"></p>
+            <p class="klassetrin"></p> 
+        
+        </div>
             <img class="billede" src="" alt="">
             <h3 class="underoverskrift1"></h3>
             <p class="yderligereinfo_1"></p>
