@@ -1,84 +1,11 @@
 <?php
 
+<link rel="stylesheet" href="singlekursus.css">
 
 get_header();
 ?>
 
-<style>
-    
-/* .kortbeskrivelse {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
-    padding-left: 20px;
-    
-}
-.langbeskrivelse {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
-    padding-left: 20px;
-    
-} */
 
-.infoboks {
-    display: grid; 
-    grid-template-columns: 1fr, 1fr;
-}
-
-
-
-.navn {
-    padding-left: 20px;
-
-}
-
-img {
-    width: 100%;
-    height: 100%; 
-    padding-left: 20px;
-
-}
-
-
-.pris {
-    padding-left: 20px;  
-}
-
-.laengde {
-    padding-left: 20px;  
-}
-
-
-.antal_deltagere {
-    padding-left: 20px; 
-}
-
-.underoverskrift1 {
-    padding-left: 20px;
-
-}
-.yderligereinfo_1 {
-    padding-left: 20px;
-}
-
-.underoverskrift2 {
-    padding-left: 20px;
-}
-
-.yderligereinfo_2 {
-    padding-left: 20px;
-}
-
-.klassetrin {
-    padding-left: 20px;
-}
-
-.infoboks {
-
-}
-
-
-
-    </style>
 
 
 
