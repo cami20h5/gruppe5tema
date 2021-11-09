@@ -143,3 +143,10 @@ input[type="submit"]:focus {
   font-size: 0.7em;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
+
+// Til single page
+
+.infoboks1 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+}
